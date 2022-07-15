@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .container .card-wrapper{
+        height: 67vh;
+        width: 477.8px;
+        color: white;
+        background: black;
+        box-shadow: 5px 5px 3px darkslategrey;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container .card-wrapper form{
+        height: 25vh;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2rem;
+        
+    }
+    .container .card-wrapper #temperature{
+        height: 35px;
+        width: 95px;
+        cursor: pointer;
+        border: none;
+        text-align: center;
+        
+    }
+    .container .card-wrapper #units{
+        height: 35px;
+        width: 90px;
+        cursor: pointer;
+        text-align: center ;
+    }
+    .container .card-wrapper #submitbtn{
+        height: 35px;
+        width:100px;
+        color: black;
+        font-weight: 500;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+    }
+    .container .card-wrapper #submitbtn:hover{
+        background-color: rgb(207, 191, 191);
+    }
+    .container .card-wrapper #resultfield{
+        width:80%;
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+    }
